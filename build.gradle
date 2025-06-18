@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 33
+        minSdkVersion 24
+        targetSdkVersion 35
     }
 
     // Chỉ để tránh lỗi nếu bạn không có source code
@@ -21,7 +21,7 @@ android {
 
 repositories {
     flatDir {
-        dirs 'releases/v1.0.0' // chứa .aar
+        dirs 'releases/v1.0.0'
     }
 }
 
