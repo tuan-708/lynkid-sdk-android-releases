@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+    }
+
+    // Chỉ để tránh lỗi nếu bạn không có source code
+    sourceSets {
+        main {
+            java.srcDirs = []
+            aidl.srcDirs = []
+            res.srcDirs = []
+            manifest.srcFile 'dummy-manifest/AndroidManifest.xml'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'releases/v1.0.0' // chứa .aar
+    }
+}
+
+dependencies {
+    implementation(name: 'lynkid-sdk-v1.0.0', ext: 'aar')
+}
