@@ -1,9 +1,5 @@
 # LynkIdSDK - Official Releases
 
-![Version](https://img.shields.io/github/v/release/yourusername/your-sdk-releases)
-![Downloads](https://img.shields.io/github/downloads/yourusername/your-sdk-releases/total)
-![License](https://img.shields.io/github/license/yourusername/your-sdk-releases)
-
 Official distribution repository for LynkIdSDK Android library.
 
 ## 🚀 Quick Start
@@ -38,4 +34,10 @@ dependencies {
 dependencies {
     implementation files('libs/sdk-1.0.0.aar')
 }
+```
+
+## Refresh dependencies
+
+```
+./gradlew build --refresh-dependencies
 ```
