@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingHorizontal="16dp"
-    tools:context="vn.linkid.sdk.app.MainActivity">
+    tools:context="vn.lynkid.sdk.app.MainActivity">
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edtPartnerCode"

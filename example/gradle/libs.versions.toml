@@ -22,7 +22,7 @@ lynkid-sdk-releases = { module = "com.github.anhpt852:lynkid_sdk_android", versi
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-sdk = { module = "vn.linkid:sdk", version.ref = "sdk" }
+sdk = { module = "vn.lynkid:sdk", version.ref = "sdk" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

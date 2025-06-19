@@ -12,7 +12,7 @@ allprojects {
        maven {
             url = uri("https://raw.githubusercontent.com/tuan-708/lynkid-sdk-releases/main/build/repo/")
             content {
-                includeGroup("vn.linkid")
+                includeGroup("vn.lynkid")
             }
         }
     }
@@ -20,7 +20,7 @@ allprojects {
 
 // App-level build.gradle
 dependencies {
-    implementation 'vn.linkid:sdk:1.0.0'
+    implementation 'vn.lynkid:sdk:1.0.0'
 }
 ```
 

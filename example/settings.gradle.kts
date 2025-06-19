@@ -19,7 +19,7 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://raw.githubusercontent.com/tuan-708/lynkid-sdk-android-releases/main/build/repo/")
             content {
-                includeGroup("vn.linkid")
+                includeGroup("vn.lynkid")
             }
         }
     }

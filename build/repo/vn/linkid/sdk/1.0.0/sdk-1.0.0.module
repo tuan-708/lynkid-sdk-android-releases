@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "vn.linkid",
+    "group": "vn.lynkid",
     "module": "sdk",
     "version": "1.0.0",
     "attributes": {
@@ -42,11 +42,11 @@
         {
           "name": "sdk-1.0.0.aar",
           "url": "sdk-1.0.0.aar",
-          "size": 8161722,
-          "sha512": "f6d206970a43c8d01c405e84f81510d232db687092f0265f332cb360b1660bfd468cf4851527118cb7f3cf8f0ae79ff7c67978e0f550152a70e11e131d9a07fd",
-          "sha256": "ddcb5fd8a850d8062517c15b125823b01df13ac35b7ac7c27bd376644c63f774",
-          "sha1": "dbe876f6e352d5671266031f4f59f1878c462268",
-          "md5": "02bfce8872b12b5122ab10fea03ec392"
+          "size": 8161543,
+          "sha512": "8344b03c4acce648d0ff2cb4b52d4cec9d0394b8c161161a376d1f56fca1045ee8829bceb56008380dfcd5ed3f7fc2848cd6fba14443110db067a29e0bd5b40d",
+          "sha256": "2bf7fda6f0ccc4fd61ff69697220ddcf86ef6b9c99b039eddf0bdeceee40ba7f",
+          "sha1": "b06b306654720be45467ee5ffa8e8fde4bce6185",
+          "md5": "3d5274454879f5bc2de208d9ac3baef8"
         }
       ]
     },
@@ -232,11 +232,11 @@
         {
           "name": "sdk-1.0.0.aar",
           "url": "sdk-1.0.0.aar",
-          "size": 8161722,
-          "sha512": "f6d206970a43c8d01c405e84f81510d232db687092f0265f332cb360b1660bfd468cf4851527118cb7f3cf8f0ae79ff7c67978e0f550152a70e11e131d9a07fd",
-          "sha256": "ddcb5fd8a850d8062517c15b125823b01df13ac35b7ac7c27bd376644c63f774",
-          "sha1": "dbe876f6e352d5671266031f4f59f1878c462268",
-          "md5": "02bfce8872b12b5122ab10fea03ec392"
+          "size": 8161543,
+          "sha512": "8344b03c4acce648d0ff2cb4b52d4cec9d0394b8c161161a376d1f56fca1045ee8829bceb56008380dfcd5ed3f7fc2848cd6fba14443110db067a29e0bd5b40d",
+          "sha256": "2bf7fda6f0ccc4fd61ff69697220ddcf86ef6b9c99b039eddf0bdeceee40ba7f",
+          "sha1": "b06b306654720be45467ee5ffa8e8fde4bce6185",
+          "md5": "3d5274454879f5bc2de208d9ac3baef8"
         }
       ]
     },
@@ -252,11 +252,11 @@
         {
           "name": "sdk-1.0.0-sources.jar",
           "url": "sdk-1.0.0-sources.jar",
-          "size": 342129,
-          "sha512": "168350c9bd2a5de9b086a7e4a1e9a906cf60c53fba8420caea6151449a57911ccb02914ccb3ea7eb398cf6fa6b2696cf942f60fc381320a184e50735376194af",
-          "sha256": "a733b41e11eb6491784a598037727da2c4e4ba80f54198889610b903928cd240",
-          "sha1": "bff544cfbaebfaa39c7722a555b0e0a8b54fede4",
-          "md5": "f153f5920e4d2c3e6865f1e02b777c67"
+          "size": 342171,
+          "sha512": "624f89e8a52a00799d25c2e76233bc0cb82240f1f0fc1db2dd66d76d0c95209418f36b8a4e1ddfd581f31c13f47f0f9a36065d463e43b812a5da9c7299eb07ae",
+          "sha256": "5cc58ad4363aa38ded6537c73c4aeea20f9735bb13951342b67274c8fa459d30",
+          "sha1": "f94b93aa984ff6993322e765241abd5b5c6f6962",
+          "md5": "ccd118d4916ce3c559c97572c59f2fee"
         }
       ]
     }
