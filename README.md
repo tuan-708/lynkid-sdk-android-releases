@@ -13,13 +13,18 @@ Official distribution repository for LynkIdSDK Android library.
 // Project-level build.gradle
 allprojects {
     repositories {
-        maven { url 'https://jitpack.io' }
+       maven {
+            url = uri("https://raw.githubusercontent.com/tuan-708/lynkid-sdk-releases/main/build/repo/")
+            content {
+                includeGroup("vn.linkid")
+            }
+        }
     }
 }
 
 // App-level build.gradle
 dependencies {
-    implementation 'com.github.tuan-708:lynkid-sdk-releases:v1.0.0'
+    implementation 'vn.linkid:sdk:1.0.0'
 }
 ```
 
@@ -31,6 +36,6 @@ dependencies {
 
 ```
 dependencies {
-    implementation files('libs/sdk-v1.0.0-release.aar')
+    implementation files('libs/sdk-1.0.0.aar')
 }
 ```
