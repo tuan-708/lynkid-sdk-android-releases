@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.lynkid.sdk.releases)
+    implementation(libs.sdk)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

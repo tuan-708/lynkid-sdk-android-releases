@@ -16,7 +16,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven(url = "https://jitpack.io")
+        maven {
+            url = uri("https://raw.githubusercontent.com/tuan-708/lynkid-sdk-releases/main/build/repo/")
+            content {
+                includeGroup("vn.linkid")
+            }
+        }
     }
 }
 
